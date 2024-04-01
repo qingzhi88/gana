@@ -4,7 +4,7 @@ public class Account {
 	//멤버변수(필드)
 	String accountNo;  //계좌번호
 	String ownerName;  //예금주이름
-	int balance;  //잔액
+	private int balance;  //잔액
 	
 	//생성자  => ctrl+space 누르면 빈클래스가 나옴.
 	public Account() {
@@ -30,5 +30,6 @@ public class Account {
 		balance-=amount;
 		return amount;
 	}
-
+            public int getbalance
+            ~~~~~~~
 }
