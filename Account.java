@@ -1,5 +1,5 @@
 package exceptionEx;  //inheritance:상속  //상속패키지에서 exception 패키지로 복사해옴
-//은행계좌클래스(국민은행)
+//은행계좌클래스(국민은행) => 멤버변수 접근제한자로 보호, getter, setter 설정
 public class Account {
 	//멤버변수(필드)
 	String accountNo;  //계좌번호
